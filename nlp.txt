@@ -1,0 +1,87 @@
+nlp - ddi
+natural language processing : doğal dil işleme
+computational linguistic : hesaplamalı dilbilim
+
+hedefler
+	nlu natural language understanding
+		yazılmış olan bir metni anlamak 
+	nlg natural language generation
+		doğal dilde metin üretmek
+
+yaklaşımlar
+	linguistik dilbilim yaklaşımı
+		pragmatics kullanımbilim
+		semantics anlambilim
+		syntax sözdizim
+		morphology şekilbilim
+	istatistiksel yaklaşımlar
+		n-gram
+		tf-idf
+		word-gram
+		bow bag of words kelime çantaları
+	hibrit yaklaşımlar
+
+yazar tanıma
+	linguistik yaklaşım
+		pos-tagging part of speech tagging, metin parçası etiketleme
+	istatistiksel yaklaşımlar
+		istatistiksel dağılım
+	hibrit yaklaşımlar
+		metindeki kelime tiplerinin dağılımı ve cümle yapıları
+
+metin sınıflandırma
+	çağrı merkezi, sosyal ağlar, mailler
+	linguistik yaklaşım
+		örüntü tanımı
+		isim tamlaması, sıfat tamlaması
+	istatistiksel yaklaşımlar
+		istatistiksel yöntemler
+	hibrit yaklaşımlar
+		örüntü dağılımı sınıflandırma
+
+sentimental polarity duygusal kutupsallık
+	opinion mining fikir madenciliği
+	linguistik yaklaşım
+		kelime anlamını çıkarıma
+		olumlu, olumsuz, nötr (duygusal kutupluk)
+	istatistiksel yaklaşım
+		kelime tanımlı sözlükler veya örüntüler
+	hibrit yaklaşımlar
+		sentimental analysis duygu analizi
+
+sentimental analysis : duygu analizi
+text categorization : metin sınıflandırma
+document summarization : metin özetleme
+question answering : soru cevaplama
+
+
+Bazı Doğal Dil İşleme Kaynakları
+NLTK : nltk.org
+SpaCy : spacy.io
+Stanford NLP
+OpenNLP: Apache : opennlp.apache.org
+Rapid Automatic Keyword Extraction (RAKE)
+Amueller Word Cloud
+TensorFlow : Word2Vec 
+Türkçe Doğal Dil İşleme Kaynaklarından bazıları
+
+Zemberek  ( http://zembereknlp.blogspot.com ) 
+İTÜ : http://tools.nlp.itu.edu.tr
+Tspell ( http://tspell.sourceforge.net/hakkinda.html ) 
+Yıldız Teknik Üniversitesi: Kemik ( http://www.kemik.yildiz.edu.tr ) 
+Wordnet (Balkanet)
+TrMorph ( http://coltekin.net/cagri/trmorph/ ) 
+TSCorpus ( https://tscorpus.com ) 
+Metu- Sabancı Tree Bank ve ITU Doğrulama Kümesi ( https://web.itu.edu.tr/gulsenc/treebanks.html ) 
+
+
+nlp adımları
+ Yapısal ve yapısal olmayan veri kaynağı
+ Preprocessing
+	veri ön işleme
+	stop wods, case, parsers(html)
+ Feature engineering
+	feature extraction : öznitelik çıkarımı
+	n-gram, tf-idf, kelime sayıları, kelime grupları
+ Makine öğrenmesi algoritması
+
