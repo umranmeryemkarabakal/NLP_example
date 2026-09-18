@@ -6,24 +6,24 @@
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 Sentiment classification of restaurant reviews: text cleaning with regex, stop-word removal and Porter stemming with NLTK, a bag-of-words model with `CountVectorizer`, and a Gaussian Naive Bayes classifier. `nlp.txt` holds Turkish notes on NLP concepts.
 
 **Quick start:** `pip install -r requirements.txt && python nlp.py`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 Restoran yorumlarının olumlu/olumsuz olarak sınıflandırılması. `nlp.txt` dosyasında doğal dil işleme kavramlarına dair Türkçe notlar vardır.
 
-## ✨ Özellikler
+## Özellikler
 
 - Düzenli ifadelerle metin temizleme
 - NLTK ile stop-word ayıklama ve Porter kök bulma
 - `CountVectorizer` ile kelime torbası (2000 özellik)
 - Gaussian Naive Bayes ve karışıklık matrisi
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -38,7 +38,7 @@ python -c "import nltk; nltk.download('stopwords')"
 python nlp.py
 ```
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 NLP_example/
